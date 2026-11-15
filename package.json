@@ -1,0 +1,25 @@
+{
+  "name": "agent-skill-radar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agent Skill Radar — AI Agent Skill Discovery, Intelligence Scoring, Security Analysis & Recommendation Platform",
+  "workspaces": [
+    "packages/shared",
+    "apps/backend",
+    "apps/frontend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces --if-present",
+    "dev:backend": "npm run dev --workspace=apps/backend",
+    "dev:frontend": "npm run dev --workspace=apps/frontend",
+    "build": "npm run build --workspace=packages/shared && npm run build --workspace=apps/backend && npm run build --workspace=apps/frontend",
+    "test": "npm run test --workspaces --if-present",
+    "db:generate": "npm run prisma:generate --workspace=apps/backend",
+    "db:push": "npm run prisma:push --workspace=apps/backend",
+    "db:migrate": "npm run prisma:migrate --workspace=apps/backend",
+    "db:seed": "npm run prisma:seed --workspace=apps/backend"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

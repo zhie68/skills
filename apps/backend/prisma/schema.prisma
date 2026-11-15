@@ -1,0 +1,288 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String       @id @default(cuid())
+  email        String       @unique
+  name         String
+  role         String       @default("ARCHITECT")
+  preferences  Json?
+  savedSkills  SavedSkill[]
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+
+  @@index([email])
+}
+
+model DiscoverySource {
+  id              String          @id @default(cuid())
+  name            String
+  slug            String          @unique
+  sourceType      String          // GITHUB_REPO | GITHUB_SEARCH | REGISTRY | ECOSYSTEM
+  url             String
+  owner           String?
+  repo            String?
+  searchQuery     String?
+  enabled         Boolean         @default(true)
+  scanFrequency   String          @default("DAILY")
+  lastScannedAt   DateTime?
+  repositories    Repository[]
+  discoveryScans  DiscoveryScan[]
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+
+  @@index([sourceType, enabled])
+}
+
+model Repository {
+  id                String           @id @default(cuid())
+  fullName          String           @unique // e.g., "anthropics/skills"
+  owner             String
+  name              String
+  htmlUrl           String
+  description       String?
+  defaultBranch     String           @default("main")
+  stars             Int              @default(0)
+  forks             Int              @default(0)
+  openIssues        Int              @default(0)
+  watchers          Int              @default(0)
+  language          String?
+  license           String?
+  topics            String[]
+  lastPushedAt      DateTime?
+  sourceId          String?
+  source            DiscoverySource? @relation(fields: [sourceId], references: [id], onDelete: SetNull)
+  skills            Skill[]
+  createdAt         DateTime         @default(now())
+  updatedAt         DateTime         @updatedAt
+
+  @@unique([owner, name])
+  @@index([stars(sort: Desc)])
+  @@index([lastPushedAt(sort: Desc)])
+}
+
+model SkillCategory {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  slug        String   @unique
+  description String?
+  icon        String?
+  color       String?
+  skills      Skill[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([slug])
+}
+
+model AgentPlatform {
+  id              String               @id @default(cuid())
+  name            String               @unique
+  slug            String               @unique
+  vendor          String?
+  websiteUrl      String?
+  compatibilities SkillCompatibility[]
+  createdAt       DateTime             @default(now())
+  updatedAt       DateTime             @updatedAt
+
+  @@index([slug])
+}
+
+model Skill {
+  id                       String               @id @default(cuid())
+  slug                     String               @unique
+  name                     String
+  description              String
+  technicalSummary         String?
+  repositoryId             String
+  repository               Repository           @relation(fields: [repositoryId], references: [id], onDelete: Cascade)
+  categoryId               String
+  category                 SkillCategory        @relation(fields: [categoryId], references: [id], onDelete: Restrict)
+  manifestPath             String               @default("SKILL.md")
+  skillMdContent           String               @db.Text
+  installCommand           String
+  installMethod            String               @default("npx skills add")
+  installSourceDoc         String               @default("SKILL.md")
+  installVerified          Boolean              @default(true)
+  currentVersion           String               @default("1.0.0")
+  overallScore             Float                @default(0)
+  rankingTier              String               @default("C") // S | A | B | C | D
+  securityStatus           String               @default("SAFE") // SAFE | REVIEW | WARNING | CRITICAL
+  isDuplicate              Boolean              @default(false)
+  canonicalSkillId         String?
+  verifiedEvidence         Json                 // Array of verified evidence items
+  aiInferredAnalysis       Json                 // Array of AI-inferred insights
+  capabilities             Json                 // EvidenceTaggedItem[]
+  dependencies             String[]
+  useCases                 String[]
+  strengths                Json                 // EvidenceTaggedItem[]
+  weaknesses               Json                 // EvidenceTaggedItem[]
+  discoveredAt             DateTime             @default(now())
+  lastUpdatedAt            DateTime             @default(now())
+  lastAnalyzedAt           DateTime             @default(now())
+  createdAt                DateTime             @default(now())
+  updatedAt                DateTime             @updatedAt
+
+  versions                 SkillVersion[]
+  compatibilities          SkillCompatibility[]
+  scores                   SkillScore[]
+  securityFindings         SecurityFinding[]
+  savedBy                  SavedSkill[]
+
+  @@unique([repositoryId, manifestPath])
+  @@index([overallScore(sort: Desc)])
+  @@index([rankingTier])
+  @@index([categoryId])
+  @@index([securityStatus])
+  @@index([discoveredAt(sort: Desc)])
+  @@index([lastUpdatedAt(sort: Desc)])
+}
+
+model SkillVersion {
+  id          String   @id @default(cuid())
+  skillId     String
+  skill       Skill    @relation(fields: [skillId], references: [id], onDelete: Cascade)
+  version     String
+  commitSha   String?
+  changelog   String?
+  contentHash String
+  releasedAt  DateTime @default(now())
+  createdAt   DateTime @default(now())
+
+  @@unique([skillId, version])
+  @@index([skillId, releasedAt(sort: Desc)])
+}
+
+model SkillCompatibility {
+  id              String        @id @default(cuid())
+  skillId         String
+  skill           Skill         @relation(fields: [skillId], references: [id], onDelete: Cascade)
+  agentPlatformId String
+  agentPlatform   AgentPlatform @relation(fields: [agentPlatformId], references: [id], onDelete: Cascade)
+  supportLevel    String        @default("NATIVE") // NATIVE | COMPATIBLE | EXPERIMENTAL
+  verified        Boolean       @default(true)
+  notes           String?
+  createdAt       DateTime      @default(now())
+
+  @@unique([skillId, agentPlatformId])
+  @@index([agentPlatformId])
+}
+
+model SkillScore {
+  id                      String   @id @default(cuid())
+  skillId                 String
+  skill                   Skill    @relation(fields: [skillId], references: [id], onDelete: Cascade)
+  technicalCapability     Float    // 25%
+  innovationAndComplexity Float    // 20%
+  communityAdoption       Float    // 15%
+  maintenanceAndUpdates   Float    // 15%
+  documentationQuality    Float    // 10%
+  securityAndReliability  Float    // 15%
+  overallScore            Float
+  rankingTier             String   // S | A | B | C | D
+  llmProvider             String   @default("heuristic")
+  rationale               Json?
+  calculatedAt            DateTime @default(now())
+
+  @@index([skillId, calculatedAt(sort: Desc)])
+  @@index([overallScore(sort: Desc)])
+}
+
+model SecurityFinding {
+  id           String   @id @default(cuid())
+  skillId      String
+  skill        Skill    @relation(fields: [skillId], references: [id], onDelete: Cascade)
+  ruleId       String
+  category     String   // SUSPICIOUS_SHELL | CREDENTIAL_HARVESTING | HARDCODED_API_KEY | DANGEROUS_FILESYSTEM | UNAUTHORIZED_NETWORK | OBFUSCATED_SCRIPT | PROMPT_INJECTION | UNEXPECTED_EXECUTABLE
+  severity     String   // LOW | MEDIUM | HIGH | CRITICAL
+  title        String
+  description  String
+  filePath     String
+  lineNumber   Int?
+  snippet      String?
+  evidenceType String   @default("VERIFIED_EVIDENCE")
+  remediation  String
+  resolved     Boolean  @default(false)
+  detectedAt   DateTime @default(now())
+
+  @@index([skillId, severity])
+  @@index([category])
+}
+
+model DiscoveryScan {
+  id                  String           @id @default(cuid())
+  triggerType         String           @default("MANUAL") // SCHEDULED | MANUAL | INCREMENTAL
+  status              String           @default("RUNNING") // PENDING | RUNNING | COMPLETED | FAILED | PARTIAL
+  sourceId            String?
+  source              DiscoverySource? @relation(fields: [sourceId], references: [id], onDelete: SetNull)
+  repositoriesScanned Int              @default(0)
+  manifestsDiscovered Int              @default(0)
+  newSkillsFound      Int              @default(0)
+  updatedSkillsCount  Int              @default(0)
+  duplicatesDetected  Int              @default(0)
+  securityWarnings    Int              @default(0)
+  errorMessage        String?
+  logs                Json?
+  startedAt           DateTime         @default(now())
+  completedAt         DateTime?
+  durationMs          Int?
+  scanJobs            ScanJob[]
+
+  @@index([startedAt(sort: Desc)])
+  @@index([status])
+}
+
+model ScanJob {
+  id              String        @id @default(cuid())
+  discoveryScanId String
+  discoveryScan   DiscoveryScan @relation(fields: [discoveryScanId], references: [id], onDelete: Cascade)
+  targetSource    String
+  jobType         String        @default("REPO_DISCOVERY")
+  status          String        @default("PENDING") // PENDING | RUNNING | COMPLETED | FAILED | RETRYING
+  attemptCount    Int           @default(1)
+  maxAttempts     Int           @default(3)
+  rateLimitRemaining Int?
+  errorLog        String?
+  resultSummary   Json?
+  startedAt       DateTime      @default(now())
+  finishedAt      DateTime?
+
+  @@index([discoveryScanId, status])
+}
+
+model SavedSkill {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  skillId   String
+  skill     Skill    @relation(fields: [skillId], references: [id], onDelete: Cascade)
+  notes     String?
+  folder    String   @default("Default")
+  savedAt   DateTime @default(now())
+
+  @@unique([userId, skillId])
+  @@index([userId, savedAt(sort: Desc)])
+}
+
+model DailyReport {
+  id                    String   @id @default(cuid())
+  reportDate            DateTime @unique
+  totalSkillsTracked    Int
+  newSkillsDiscovered   Int
+  updatedSkills         Int
+  securityAlertsCount   Int
+  averageScore          Float
+  topSkillIds           String[]
+  trendingSkillIds      String[]
+  categoryBreakdown     Json
+  executiveSummary      String   @db.Text
+  generatedAt           DateTime @default(now())
+
+  @@index([reportDate(sort: Desc)])
+}

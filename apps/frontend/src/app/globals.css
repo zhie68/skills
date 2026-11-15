@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #070913;
+  background-image:
+    radial-gradient(circle at 15% 10%, rgba(139, 92, 246, 0.11), transparent 32%),
+    radial-gradient(circle at 85% 15%, rgba(59, 130, 246, 0.09), transparent 32%);
+  color: #f1f5f9;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Premium subtle glassmorphism utilities */
+.glass-panel {
+  background: rgba(15, 20, 38, 0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+.glass-panel-hover {
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.glass-panel-hover:hover {
+  border-color: rgba(139, 92, 246, 0.38);
+  box-shadow: 0 8px 30px -10px rgba(139, 92, 246, 0.18);
+}
+
+/* Custom subtle scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(7, 9, 19, 0.8);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.22);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 92, 246, 0.45);
+}
