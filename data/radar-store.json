@@ -205,7 +205,7 @@
           "antigravity",
           "typescript"
         ],
-        "lastPushedAt": "2026-11-14T16:45:13.585Z",
+        "lastPushedAt": "2026-11-15T03:32:09.986Z",
         "sourceId": "src-anthropics-skills"
       },
       "categoryId": "cat-coding",
@@ -321,7 +321,7 @@
           "commitSha": "62a13ea",
           "changelog": "Verified manifest skills/mcp-builder/SKILL.md with score 91.4/100 (S Tier).",
           "contentHash": "62a13ea54e234fcc",
-          "releasedAt": "2026-11-14T16:45:13.585Z"
+          "releasedAt": "2026-11-15T03:32:09.986Z"
         },
         {
           "id": "ver-anthropics-mcp-builder-1.0.0",
@@ -329,12 +329,12 @@
           "commitSha": "a1b2c3d",
           "changelog": "Initial skill discovery and baseline static security validation.",
           "contentHash": "0011223344556677",
-          "releasedAt": "2026-10-31T16:45:13.585Z"
+          "releasedAt": "2026-11-01T03:32:09.986Z"
         }
       ],
-      "discoveredAt": "2026-11-15T16:45:13.906Z",
-      "lastUpdatedAt": "2026-11-14T16:45:13.585Z",
-      "lastAnalyzedAt": "2026-11-15T16:45:13.906Z",
+      "discoveredAt": "2026-11-16T03:32:09.997Z",
+      "lastUpdatedAt": "2026-11-15T03:32:09.986Z",
+      "lastAnalyzedAt": "2026-11-16T03:32:09.997Z",
       "llmProviderUsed": "heuristic-verified-engine"
     },
     {
@@ -364,7 +364,7 @@
           "testing",
           "agent-skills"
         ],
-        "lastPushedAt": "2026-11-13T16:45:13.585Z",
+        "lastPushedAt": "2026-11-14T03:32:09.986Z",
         "sourceId": "src-anthropics-skills"
       },
       "categoryId": "cat-browser",
@@ -475,7 +475,7 @@
           "commitSha": "6447ced",
           "changelog": "Verified manifest skills/webapp-testing/SKILL.md with score 87.8/100 (A Tier).",
           "contentHash": "6447ced761bb81b9",
-          "releasedAt": "2026-11-13T16:45:13.585Z"
+          "releasedAt": "2026-11-14T03:32:09.986Z"
         },
         {
           "id": "ver-anthropics-webapp-testing-1.0.0",
@@ -483,12 +483,12 @@
           "commitSha": "a1b2c3d",
           "changelog": "Initial skill discovery and baseline static security validation.",
           "contentHash": "0011223344556677",
-          "releasedAt": "2026-10-30T16:45:13.585Z"
+          "releasedAt": "2026-10-31T03:32:09.986Z"
         }
       ],
-      "discoveredAt": "2026-11-15T16:45:13.906Z",
-      "lastUpdatedAt": "2026-11-13T16:45:13.585Z",
-      "lastAnalyzedAt": "2026-11-15T16:45:13.906Z",
+      "discoveredAt": "2026-11-16T03:32:09.998Z",
+      "lastUpdatedAt": "2026-11-14T03:32:09.986Z",
+      "lastAnalyzedAt": "2026-11-16T03:32:09.998Z",
       "llmProviderUsed": "heuristic-verified-engine"
     },
     {
@@ -519,7 +519,7 @@
           "autonomous",
           "orchestration"
         ],
-        "lastPushedAt": "2026-11-14T16:45:13.585Z",
+        "lastPushedAt": "2026-11-15T03:32:09.986Z",
         "sourceId": "src-antigravity-awesome"
       },
       "categoryId": "cat-autonomous",
@@ -627,7 +627,7 @@
           "commitSha": "e9bee0a",
           "changelog": "Verified manifest skills/swarm-orchestrator/SKILL.md with score 89/100 (A Tier).",
           "contentHash": "e9bee0a0da4f6bec",
-          "releasedAt": "2026-11-14T16:45:13.585Z"
+          "releasedAt": "2026-11-15T03:32:09.986Z"
         },
         {
           "id": "ver-antigravity-swarm-orchestrator-1.0.0",
@@ -635,12 +635,12 @@
           "commitSha": "a1b2c3d",
           "changelog": "Initial skill discovery and baseline static security validation.",
           "contentHash": "0011223344556677",
-          "releasedAt": "2026-10-31T16:45:13.585Z"
+          "releasedAt": "2026-11-01T03:32:09.986Z"
         }
       ],
-      "discoveredAt": "2026-11-15T16:45:13.906Z",
-      "lastUpdatedAt": "2026-11-14T16:45:13.585Z",
-      "lastAnalyzedAt": "2026-11-15T16:45:13.906Z",
+      "discoveredAt": "2026-11-16T03:32:09.998Z",
+      "lastUpdatedAt": "2026-11-15T03:32:09.986Z",
+      "lastAnalyzedAt": "2026-11-16T03:32:09.998Z",
       "llmProviderUsed": "heuristic-verified-engine"
     },
     {
@@ -672,7 +672,7 @@
           "3d",
           "agent-skills"
         ],
-        "lastPushedAt": "2026-11-12T16:45:13.585Z",
+        "lastPushedAt": "2026-11-13T03:32:09.986Z",
         "sourceId": "src-threejs-skills"
       },
       "categoryId": "cat-3d",
@@ -787,7 +787,7 @@
           "commitSha": "2242e8e",
           "changelog": "Verified manifest skills/threejs-shaders/SKILL.md with score 87.8/100 (A Tier).",
           "contentHash": "2242e8ec34956472",
-          "releasedAt": "2026-11-12T16:45:13.585Z"
+          "releasedAt": "2026-11-13T03:32:09.986Z"
         },
         {
           "id": "ver-threejs-webgl-shader-studio-1.0.0",
@@ -795,12 +795,12 @@
           "commitSha": "a1b2c3d",
           "changelog": "Initial skill discovery and baseline static security validation.",
           "contentHash": "0011223344556677",
-          "releasedAt": "2026-10-29T16:45:13.585Z"
+          "releasedAt": "2026-10-30T03:32:09.986Z"
         }
       ],
-      "discoveredAt": "2026-11-14T16:45:13.907Z",
-      "lastUpdatedAt": "2026-11-12T16:45:13.585Z",
-      "lastAnalyzedAt": "2026-11-15T16:45:13.907Z",
+      "discoveredAt": "2026-11-15T03:32:09.998Z",
+      "lastUpdatedAt": "2026-11-13T03:32:09.986Z",
+      "lastAnalyzedAt": "2026-11-16T03:32:09.998Z",
       "llmProviderUsed": "heuristic-verified-engine"
     },
     {
@@ -831,7 +831,7 @@
           "redis",
           "backend"
         ],
-        "lastPushedAt": "2026-11-13T16:45:13.585Z",
+        "lastPushedAt": "2026-11-14T03:32:09.986Z",
         "sourceId": "src-antigravity-awesome"
       },
       "categoryId": "cat-backend",
@@ -940,7 +940,7 @@
           "commitSha": "f83b8a7",
           "changelog": "Verified manifest skills/nestjs-prisma-architect/SKILL.md with score 84/100 (A Tier).",
           "contentHash": "f83b8a7ad26e515f",
-          "releasedAt": "2026-11-13T16:45:13.585Z"
+          "releasedAt": "2026-11-14T03:32:09.986Z"
         },
         {
           "id": "ver-nestjs-prisma-postgres-architect-1.0.0",
@@ -948,12 +948,12 @@
           "commitSha": "a1b2c3d",
           "changelog": "Initial skill discovery and baseline static security validation.",
           "contentHash": "0011223344556677",
-          "releasedAt": "2026-10-30T16:45:13.585Z"
+          "releasedAt": "2026-10-31T03:32:09.986Z"
         }
       ],
-      "discoveredAt": "2026-11-14T16:45:13.907Z",
-      "lastUpdatedAt": "2026-11-13T16:45:13.585Z",
-      "lastAnalyzedAt": "2026-11-15T16:45:13.907Z",
+      "discoveredAt": "2026-11-15T03:32:09.999Z",
+      "lastUpdatedAt": "2026-11-14T03:32:09.986Z",
+      "lastAnalyzedAt": "2026-11-16T03:32:09.999Z",
       "llmProviderUsed": "heuristic-verified-engine"
     },
     {
@@ -984,7 +984,7 @@
           "tailwindcss",
           "typescript"
         ],
-        "lastPushedAt": "2026-11-14T16:45:13.585Z",
+        "lastPushedAt": "2026-11-15T03:32:09.986Z",
         "sourceId": "src-skills-sh"
       },
       "categoryId": "cat-coding",
@@ -1094,7 +1094,7 @@
           "commitSha": "ca71c28",
           "changelog": "Verified manifest skills/react-best-practices/SKILL.md with score 87.5/100 (A Tier).",
           "contentHash": "ca71c28f39331b1a",
-          "releasedAt": "2026-11-14T16:45:13.585Z"
+          "releasedAt": "2026-11-15T03:32:09.986Z"
         },
         {
           "id": "ver-vercel-nextjs-app-router-best-practices-1.0.0",
@@ -1102,12 +1102,12 @@
           "commitSha": "a1b2c3d",
           "changelog": "Initial skill discovery and baseline static security validation.",
           "contentHash": "0011223344556677",
-          "releasedAt": "2026-10-31T16:45:13.585Z"
+          "releasedAt": "2026-11-01T03:32:09.986Z"
         }
       ],
-      "discoveredAt": "2026-11-15T16:45:13.907Z",
-      "lastUpdatedAt": "2026-11-14T16:45:13.585Z",
-      "lastAnalyzedAt": "2026-11-15T16:45:13.907Z",
+      "discoveredAt": "2026-11-16T03:32:09.999Z",
+      "lastUpdatedAt": "2026-11-15T03:32:09.986Z",
+      "lastAnalyzedAt": "2026-11-16T03:32:09.999Z",
       "llmProviderUsed": "heuristic-verified-engine"
     },
     {
@@ -1138,7 +1138,7 @@
           "rag",
           "autonomous"
         ],
-        "lastPushedAt": "2026-11-11T16:45:13.585Z",
+        "lastPushedAt": "2026-11-12T03:32:09.986Z",
         "sourceId": "src-openclaw"
       },
       "categoryId": "cat-research",
@@ -1248,7 +1248,7 @@
           "commitSha": "7c5c23b",
           "changelog": "Verified manifest research/deep-researcher/SKILL.md with score 86.2/100 (A Tier).",
           "contentHash": "7c5c23ba02631e32",
-          "releasedAt": "2026-11-11T16:45:13.585Z"
+          "releasedAt": "2026-11-12T03:32:09.986Z"
         },
         {
           "id": "ver-openclaw-autonomous-deep-researcher-1.0.0",
@@ -1256,12 +1256,12 @@
           "commitSha": "a1b2c3d",
           "changelog": "Initial skill discovery and baseline static security validation.",
           "contentHash": "0011223344556677",
-          "releasedAt": "2026-10-28T16:45:13.585Z"
+          "releasedAt": "2026-10-29T03:32:09.986Z"
         }
       ],
-      "discoveredAt": "2026-11-13T16:45:13.907Z",
-      "lastUpdatedAt": "2026-11-11T16:45:13.585Z",
-      "lastAnalyzedAt": "2026-11-15T16:45:13.907Z",
+      "discoveredAt": "2026-11-14T03:32:09.999Z",
+      "lastUpdatedAt": "2026-11-12T03:32:09.986Z",
+      "lastAnalyzedAt": "2026-11-16T03:32:09.999Z",
       "llmProviderUsed": "heuristic-verified-engine"
     },
     {
@@ -1292,7 +1292,7 @@
           "sre",
           "ci-cd"
         ],
-        "lastPushedAt": "2026-11-12T16:45:13.585Z",
+        "lastPushedAt": "2026-11-13T03:32:09.986Z",
         "sourceId": "src-antigravity-awesome"
       },
       "categoryId": "cat-devops",
@@ -1400,7 +1400,7 @@
           "commitSha": "5ec805a",
           "changelog": "Verified manifest skills/devops-docker-sre/SKILL.md with score 85/100 (A Tier).",
           "contentHash": "5ec805a8caa61480",
-          "releasedAt": "2026-11-12T16:45:13.585Z"
+          "releasedAt": "2026-11-13T03:32:09.986Z"
         },
         {
           "id": "ver-devops-docker-kubernetes-sre-1.0.0",
@@ -1408,12 +1408,12 @@
           "commitSha": "a1b2c3d",
           "changelog": "Initial skill discovery and baseline static security validation.",
           "contentHash": "0011223344556677",
-          "releasedAt": "2026-10-29T16:45:13.585Z"
+          "releasedAt": "2026-10-30T03:32:09.986Z"
         }
       ],
-      "discoveredAt": "2026-11-12T16:45:13.907Z",
-      "lastUpdatedAt": "2026-11-12T16:45:13.585Z",
-      "lastAnalyzedAt": "2026-11-15T16:45:13.907Z",
+      "discoveredAt": "2026-11-13T03:32:10.000Z",
+      "lastUpdatedAt": "2026-11-13T03:32:09.986Z",
+      "lastAnalyzedAt": "2026-11-16T03:32:10.000Z",
       "llmProviderUsed": "heuristic-verified-engine"
     },
     {
@@ -1444,7 +1444,7 @@
           "audit",
           "agent-skills"
         ],
-        "lastPushedAt": "2026-11-14T16:45:13.585Z",
+        "lastPushedAt": "2026-11-15T03:32:09.986Z",
         "sourceId": "src-antigravity-awesome"
       },
       "categoryId": "cat-security",
@@ -1552,7 +1552,7 @@
           "commitSha": "d9340c2",
           "changelog": "Verified manifest skills/security-sentinel/SKILL.md with score 91.5/100 (S Tier).",
           "contentHash": "d9340c21b8d59bff",
-          "releasedAt": "2026-11-14T16:45:13.585Z"
+          "releasedAt": "2026-11-15T03:32:09.986Z"
         },
         {
           "id": "ver-security-sentinel-static-auditor-1.0.0",
@@ -1560,12 +1560,12 @@
           "commitSha": "a1b2c3d",
           "changelog": "Initial skill discovery and baseline static security validation.",
           "contentHash": "0011223344556677",
-          "releasedAt": "2026-10-31T16:45:13.585Z"
+          "releasedAt": "2026-11-01T03:32:09.986Z"
         }
       ],
-      "discoveredAt": "2026-11-14T16:45:13.908Z",
-      "lastUpdatedAt": "2026-11-14T16:45:13.585Z",
-      "lastAnalyzedAt": "2026-11-15T16:45:13.908Z",
+      "discoveredAt": "2026-11-15T03:32:10.000Z",
+      "lastUpdatedAt": "2026-11-15T03:32:09.986Z",
+      "lastAnalyzedAt": "2026-11-16T03:32:10.000Z",
       "llmProviderUsed": "heuristic-verified-engine"
     },
     {
@@ -1594,7 +1594,7 @@
           "provisioning",
           "shell"
         ],
-        "lastPushedAt": "2026-11-03T16:45:13.585Z",
+        "lastPushedAt": "2026-11-04T03:32:09.986Z",
         "sourceId": "src-openclaw"
       },
       "categoryId": "cat-devops",
@@ -1763,7 +1763,7 @@
           "commitSha": "3583ffd",
           "changelog": "Verified manifest experimental/legacy-provisioner/SKILL.md with score 70.1/100 (B Tier).",
           "contentHash": "3583ffdcfe554b35",
-          "releasedAt": "2026-11-03T16:45:13.585Z"
+          "releasedAt": "2026-11-04T03:32:09.986Z"
         },
         {
           "id": "ver-openclaw-remote-shell-provisioner-flagged-1.0.0",
@@ -1771,12 +1771,1403 @@
           "commitSha": "a1b2c3d",
           "changelog": "Initial skill discovery and baseline static security validation.",
           "contentHash": "0011223344556677",
-          "releasedAt": "2026-10-20T16:45:13.585Z"
+          "releasedAt": "2026-10-21T03:32:09.986Z"
         }
       ],
-      "discoveredAt": "2026-11-15T16:45:13.908Z",
-      "lastUpdatedAt": "2026-11-03T16:45:13.585Z",
-      "lastAnalyzedAt": "2026-11-15T16:45:13.908Z",
+      "discoveredAt": "2026-11-16T03:32:10.000Z",
+      "lastUpdatedAt": "2026-11-04T03:32:09.986Z",
+      "lastAnalyzedAt": "2026-11-16T03:32:10.000Z",
+      "llmProviderUsed": "heuristic-verified-engine"
+    },
+    {
+      "id": "skill-antigravity-nextjs15-app-router",
+      "slug": "antigravity-nextjs15-app-router",
+      "name": "Next.js 15 & React 19 Streaming Architect",
+      "description": "Modern Next.js 15 App Router architecture with async Request APIs, React 19 Actions, optimistic mutations, and partial prerendering (PPR).",
+      "technicalSummary": "Next.js 15 & React 19 Streaming Architect (sickn33/antigravity-awesome-skills) is a A-Tier AI agent skill scoring 84/100. Verified via skills/nextjs15-streaming/SKILL.md with 2 reference patterns and SAFE security posture.",
+      "repositoryId": "repo-sickn33-antigravity-awesome-skills",
+      "repository": {
+        "id": "repo-sickn33-antigravity-awesome-skills",
+        "fullName": "sickn33/antigravity-awesome-skills",
+        "owner": "sickn33",
+        "name": "antigravity-awesome-skills",
+        "htmlUrl": "https://github.com/sickn33/antigravity-awesome-skills",
+        "description": "Curated collection of production skills for Google Antigravity, Claude Code, and Cursor.",
+        "defaultBranch": "main",
+        "stars": 7120,
+        "forks": 820,
+        "openIssues": 12,
+        "watchers": 310,
+        "language": "TypeScript",
+        "license": "Apache-2.0",
+        "topics": [
+          "nextjs15",
+          "react19",
+          "ppr",
+          "streaming",
+          "antigravity",
+          "agent-skills"
+        ],
+        "lastPushedAt": "2026-11-15T03:32:09.986Z",
+        "sourceId": "src-antigravity-awesome"
+      },
+      "categoryId": "cat-coding",
+      "category": {
+        "id": "cat-coding",
+        "name": "Coding Agents",
+        "slug": "coding-agents",
+        "description": "Full-stack engineering, refactoring, AST analysis, and architecture design skills.",
+        "icon": "Code2",
+        "color": "#8b5cf6"
+      },
+      "manifestPath": "skills/nextjs15-streaming/SKILL.md",
+      "skillMdContent": "---\nname: nextjs15-streaming\ndescription: Architectural guidelines for Next.js 15 App Router, React 19 Server Actions, PPR, and typed routing.\n---\n\n# Next.js 15 & React 19 Streaming Architect\n\nBuild high-performance streaming web applications with Next.js 15 and React 19.\n\n## Installation\n\n```bash\nnpx skills add sickn33/antigravity-awesome-skills --skill nextjs15-streaming\n```\n\n## Core Capabilities\n\n- Adapts async dynamic APIs (params, searchParams, cookies, headers) in Next.js 15\n- Implements Partial Prerendering (PPR) blending static shells with dynamic streaming holes\n- Configures useActionState and useOptimistic for instant user feedback on mutations\n- Prevents waterfall requests by composing parallel data dependencies\n\n```tsx\nexport default async function Page({ params }: { params: Promise<{ id: string }> }) {\n  const { id } = await params;\n  return <Suspense fallback={<Skeleton />}><SkillStream id={id} /></Suspense>;\n}\n```\n",
+      "installCommand": "npx skills add sickn33/antigravity-awesome-skills",
+      "installMethod": "skills.sh CLI (npx skills)",
+      "installSourceDoc": "skills/nextjs15-streaming/SKILL.md",
+      "installVerified": true,
+      "currentVersion": "3.2.0",
+      "overallScore": 84,
+      "rankingTier": "A",
+      "scoreBreakdown": {
+        "technicalCapability": 76,
+        "innovationAndComplexity": 64,
+        "communityAdoption": 97,
+        "maintenanceAndUpdates": 97,
+        "documentationQuality": 81,
+        "securityAndReliability": 100,
+        "overallScore": 84,
+        "rankingTier": "A"
+      },
+      "securityStatus": "SAFE",
+      "isDuplicate": false,
+      "canonicalSkillId": null,
+      "verifiedEvidence": [
+        "Repository sickn33/antigravity-awesome-skills verified with 7.120 GitHub stars and 820 forks.",
+        "Manifest skills/nextjs15-streaming/SKILL.md contains 29 lines, 3 structured markdown sections, and 2 executable/reference code blocks.",
+        "Static security scan executed with 0 policy violations (status: SAFE).",
+        "Last repository push verified 1 day(s) ago."
+      ],
+      "aiInferredAnalysis": [
+        "Inferred primary architectural role: Backend Architecture workflow accelerator with modular patterns.",
+        "Estimated token efficiency and context hygiene rated high due to structured YAML trigger metadata.",
+        "Recommended for production agent pipelines where deterministic next.js 15 & react 19 streaming architect execution is required."
+      ],
+      "capabilities": [
+        {
+          "statement": "Adapts async dynamic APIs (params, searchParams, cookies, headers) in Next.js 15",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/nextjs15-streaming/SKILL.md#section-1"
+        },
+        {
+          "statement": "Implements Partial Prerendering (PPR) blending static shells with dynamic streaming holes",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/nextjs15-streaming/SKILL.md#section-2"
+        },
+        {
+          "statement": "Configures useActionState and useOptimistic for instant user feedback on mutations",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/nextjs15-streaming/SKILL.md#section-3"
+        },
+        {
+          "statement": "Prevents waterfall requests by composing parallel data dependencies",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/nextjs15-streaming/SKILL.md#section-4"
+        },
+        {
+          "statement": "Synthesizes multi-step context for autonomous task completion with minimal prompt drift.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "dependencies": [
+        "next"
+      ],
+      "supportedAgents": [
+        "Google Antigravity"
+      ],
+      "useCases": [
+        "Automated backend architecture workflows in enterprise repositories",
+        "Modern Next.js 15 App Router architecture with async Request APIs, React 19 Actions, optim with deterministic verification",
+        "CI/CD and interactive IDE agent skill augmentation",
+        "Multi-agent delegation with standardized SKILL.md guardrails"
+      ],
+      "strengths": [
+        {
+          "statement": "Verified YAML frontmatter & structured instructions (3 sections in skills/nextjs15-streaming/SKILL.md).",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/nextjs15-streaming/SKILL.md#L1"
+        },
+        {
+          "statement": "Strong ecosystem backing (7.120 stars in sickn33/antigravity-awesome-skills).",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "https://github.com/sickn33/antigravity-awesome-skills"
+        },
+        {
+          "statement": "Reduces multi-turn agent hallucination risk through explicit guardrails and step-by-step tool orchestration.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "weaknesses": [
+        {
+          "statement": "May require host agent tool-calling support (Google Antigravity) for full automation depth.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "securityFindings": [],
+      "versions": [
+        {
+          "id": "ver-antigravity-nextjs15-app-router-3.2.0",
+          "version": "3.2.0",
+          "commitSha": "ecaa33a",
+          "changelog": "Verified manifest skills/nextjs15-streaming/SKILL.md with score 84/100 (A Tier).",
+          "contentHash": "ecaa33a485e6d90c",
+          "releasedAt": "2026-11-15T03:32:09.986Z"
+        },
+        {
+          "id": "ver-antigravity-nextjs15-app-router-1.0.0",
+          "version": "1.0.0",
+          "commitSha": "a1b2c3d",
+          "changelog": "Initial skill discovery and baseline static security validation.",
+          "contentHash": "0011223344556677",
+          "releasedAt": "2026-11-01T03:32:09.986Z"
+        }
+      ],
+      "discoveredAt": "2026-11-16T03:32:10.001Z",
+      "lastUpdatedAt": "2026-11-15T03:32:09.986Z",
+      "lastAnalyzedAt": "2026-11-16T03:32:10.001Z",
+      "llmProviderUsed": "heuristic-verified-engine"
+    },
+    {
+      "id": "skill-claude-code-ast-refactor",
+      "slug": "claude-code-ast-refactor",
+      "name": "TypeScript AST & Large Scale Refactor",
+      "description": "Autonomous Abstract Syntax Tree (AST) analysis, TS-Morph transformations, dead code pruning, and codemod generation for massive codebases.",
+      "technicalSummary": "TypeScript AST & Large Scale Refactor (anthropics/skills) is a A-Tier AI agent skill scoring 85.3/100. Verified via skills/ast-refactor/SKILL.md with 2 reference patterns and SAFE security posture.",
+      "repositoryId": "repo-anthropics-skills",
+      "repository": {
+        "id": "repo-anthropics-skills",
+        "fullName": "anthropics/skills",
+        "owner": "anthropics",
+        "name": "skills",
+        "htmlUrl": "https://github.com/anthropics/skills",
+        "description": "Public repository for Anthropic agent skills and reference workflows.",
+        "defaultBranch": "main",
+        "stars": 18420,
+        "forks": 2150,
+        "openIssues": 42,
+        "watchers": 610,
+        "language": "TypeScript",
+        "license": "MIT",
+        "topics": [
+          "ast",
+          "ts-morph",
+          "refactoring",
+          "codemod",
+          "typescript"
+        ],
+        "lastPushedAt": "2026-11-15T03:32:09.986Z",
+        "sourceId": "src-anthropics-skills"
+      },
+      "categoryId": "cat-coding",
+      "category": {
+        "id": "cat-coding",
+        "name": "Coding Agents",
+        "slug": "coding-agents",
+        "description": "Full-stack engineering, refactoring, AST analysis, and architecture design skills.",
+        "icon": "Code2",
+        "color": "#8b5cf6"
+      },
+      "manifestPath": "skills/ast-refactor/SKILL.md",
+      "skillMdContent": "---\nname: ast-refactor\ndescription: Semantic codebase transformation using ts-morph, ESLint rules, and programmatic AST codemods.\n---\n\n# TypeScript AST & Large Scale Refactor\n\nExecute guaranteed type-safe refactoring across thousands of files without regex regressions.\n\n## Installation\n\n```bash\nnpx skills add anthropics/skills --skill ast-refactor\n```\n\n## Core Capabilities\n\n- Parses complex TypeScript project graphs into AST representations with full type-checker context\n- Performs symbol renames, parameter reordering, and import pruning programmatically\n- Generates idempotent jscodeshift / ts-morph codemod scripts with automated unit test assertions\n\n```typescript\nimport { Project } from 'ts-morph';\nconst project = new Project({ tsConfigFilePath: './tsconfig.json' });\nconst sourceFiles = project.getSourceFiles();\nfor (const sf of sourceFiles) {\n  sf.getImportDeclarations().forEach(i => i.isModuleSpecifierRelative() && i.fixMissingImports());\n}\n```\n",
+      "installCommand": "npx skills add anthropics/skills",
+      "installMethod": "skills.sh CLI (npx skills)",
+      "installSourceDoc": "skills/ast-refactor/SKILL.md",
+      "installVerified": true,
+      "currentVersion": "2.5.0",
+      "overallScore": 85.3,
+      "rankingTier": "A",
+      "scoreBreakdown": {
+        "technicalCapability": 76,
+        "innovationAndComplexity": 69,
+        "communityAdoption": 99,
+        "maintenanceAndUpdates": 97,
+        "documentationQuality": 81,
+        "securityAndReliability": 100,
+        "overallScore": 85.3,
+        "rankingTier": "A"
+      },
+      "securityStatus": "SAFE",
+      "isDuplicate": false,
+      "canonicalSkillId": null,
+      "verifiedEvidence": [
+        "Repository anthropics/skills verified with 18.420 GitHub stars and 2.150 forks.",
+        "Manifest skills/ast-refactor/SKILL.md contains 30 lines, 3 structured markdown sections, and 2 executable/reference code blocks.",
+        "Static security scan executed with 0 policy violations (status: SAFE).",
+        "Last repository push verified 1 day(s) ago."
+      ],
+      "aiInferredAnalysis": [
+        "Inferred primary architectural role: Coding & Software Engineering workflow accelerator with ast patterns.",
+        "Estimated token efficiency and context hygiene rated high due to structured YAML trigger metadata.",
+        "Recommended for production agent pipelines where deterministic typescript ast & large scale refactor execution is required."
+      ],
+      "capabilities": [
+        {
+          "statement": "Parses complex TypeScript project graphs into AST representations with full type-checker context",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/ast-refactor/SKILL.md#section-1"
+        },
+        {
+          "statement": "Performs symbol renames, parameter reordering, and import pruning programmatically",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/ast-refactor/SKILL.md#section-2"
+        },
+        {
+          "statement": "Generates idempotent jscodeshift / ts-morph codemod scripts with automated unit test assertions",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/ast-refactor/SKILL.md#section-3"
+        },
+        {
+          "statement": "Synthesizes multi-step context for autonomous task completion with minimal prompt drift.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "dependencies": [
+        "typescript",
+        "eslint"
+      ],
+      "supportedAgents": [
+        "Claude Code",
+        "Google Antigravity"
+      ],
+      "useCases": [
+        "Automated coding & software engineering workflows in enterprise repositories",
+        "Autonomous Abstract Syntax Tree (AST) analysis, TS-Morph transformations, dead code prunin with deterministic verification",
+        "CI/CD and interactive IDE agent skill augmentation",
+        "Multi-agent delegation with standardized SKILL.md guardrails"
+      ],
+      "strengths": [
+        {
+          "statement": "Verified YAML frontmatter & structured instructions (3 sections in skills/ast-refactor/SKILL.md).",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/ast-refactor/SKILL.md#L1"
+        },
+        {
+          "statement": "Strong ecosystem backing (18.420 stars in anthropics/skills).",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "https://github.com/anthropics/skills"
+        },
+        {
+          "statement": "Reduces multi-turn agent hallucination risk through explicit guardrails and step-by-step tool orchestration.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "weaknesses": [
+        {
+          "statement": "May require host agent tool-calling support (Claude Code / Google Antigravity) for full automation depth.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "securityFindings": [],
+      "versions": [
+        {
+          "id": "ver-claude-code-ast-refactor-2.5.0",
+          "version": "2.5.0",
+          "commitSha": "cb12668",
+          "changelog": "Verified manifest skills/ast-refactor/SKILL.md with score 85.3/100 (A Tier).",
+          "contentHash": "cb12668f8cb1ed4c",
+          "releasedAt": "2026-11-15T03:32:09.986Z"
+        },
+        {
+          "id": "ver-claude-code-ast-refactor-1.0.0",
+          "version": "1.0.0",
+          "commitSha": "a1b2c3d",
+          "changelog": "Initial skill discovery and baseline static security validation.",
+          "contentHash": "0011223344556677",
+          "releasedAt": "2026-11-01T03:32:09.986Z"
+        }
+      ],
+      "discoveredAt": "2026-11-15T03:32:10.001Z",
+      "lastUpdatedAt": "2026-11-15T03:32:09.986Z",
+      "lastAnalyzedAt": "2026-11-16T03:32:10.001Z",
+      "llmProviderUsed": "heuristic-verified-engine"
+    },
+    {
+      "id": "skill-langgraph-multi-agent-workflow",
+      "slug": "langgraph-multi-agent-workflow",
+      "name": "LangGraph StateGraph & Multi-Agent Swarm",
+      "description": "Construct cyclical multi-agent workflows with LangGraph StateGraph, human-in-the-loop validation, persistence checkpointers, and tool fan-out.",
+      "technicalSummary": "LangGraph StateGraph & Multi-Agent Swarm (openclaw/skills) is a S-Tier AI agent skill scoring 90.5/100. Verified via skills/langgraph-orchestration/SKILL.md with 2 reference patterns and SAFE security posture.",
+      "repositoryId": "repo-openclaw-skills",
+      "repository": {
+        "id": "repo-openclaw-skills",
+        "fullName": "openclaw/skills",
+        "owner": "openclaw",
+        "name": "skills",
+        "htmlUrl": "https://github.com/openclaw/skills",
+        "description": "OpenClaw community skill registry for autonomous research, browser, and workflow agents.",
+        "defaultBranch": "main",
+        "stars": 5190,
+        "forks": 615,
+        "openIssues": 24,
+        "watchers": 230,
+        "language": "Python",
+        "license": "MIT",
+        "topics": [
+          "langgraph",
+          "langchain",
+          "multi-agent",
+          "stategraph",
+          "workflow"
+        ],
+        "lastPushedAt": "2026-11-14T03:32:09.986Z",
+        "sourceId": "src-openclaw"
+      },
+      "categoryId": "cat-autonomous",
+      "category": {
+        "id": "cat-autonomous",
+        "name": "Autonomous Agents",
+        "slug": "autonomous-agents",
+        "description": "Multi-agent swarm orchestration, task decomposition, and goal-driven execution.",
+        "icon": "Bot",
+        "color": "#6366f1"
+      },
+      "manifestPath": "skills/langgraph-orchestration/SKILL.md",
+      "skillMdContent": "---\nname: langgraph-orchestration\ndescription: State-machine based multi-agent coordination with cyclic graphs, memory checkpoints, and fault tolerance.\n---\n\n# LangGraph StateGraph & Multi-Agent Swarm\n\nOrchestrate complex stateful AI agent loops with conditional routing and durable memory.\n\n## Installation\n\n```bash\nopenclaw skills install langgraph-orchestration\n```\n\n## Core Capabilities\n\n- Builds deterministic StateGraph topologies with typed TypedDict / Pydantic state channels\n- Implements human-in-the-loop interrupt points for approval of critical agent tool calls\n- Supports SQLite and Postgres Checkpointer engines for resilient workflow resumption\n\n```python\nfrom langgraph.graph import StateGraph, END\nworkflow = StateGraph(AgentState)\nworkflow.add_node(\"agent\", call_model)\nworkflow.add_node(\"tools\", execute_tools)\nworkflow.add_conditional_edges(\"agent\", should_continue, {\"continue\": \"tools\", \"end\": END})\n```\n",
+      "installCommand": "openclaw skills install langgraph-orchestration",
+      "installMethod": "OpenClaw Skill Registry CLI",
+      "installSourceDoc": "skills/langgraph-orchestration/SKILL.md",
+      "installVerified": true,
+      "currentVersion": "2.1.4",
+      "overallScore": 90.5,
+      "rankingTier": "S",
+      "scoreBreakdown": {
+        "technicalCapability": 86,
+        "innovationAndComplexity": 79,
+        "communityAdoption": 97,
+        "maintenanceAndUpdates": 97,
+        "documentationQuality": 91,
+        "securityAndReliability": 100,
+        "overallScore": 90.5,
+        "rankingTier": "S"
+      },
+      "securityStatus": "SAFE",
+      "isDuplicate": false,
+      "canonicalSkillId": null,
+      "verifiedEvidence": [
+        "Repository openclaw/skills verified with 5.190 GitHub stars and 615 forks.",
+        "Manifest skills/langgraph-orchestration/SKILL.md contains 29 lines, 3 structured markdown sections, and 2 executable/reference code blocks.",
+        "Static security scan executed with 0 policy violations (status: SAFE).",
+        "Last repository push verified 2 day(s) ago."
+      ],
+      "aiInferredAnalysis": [
+        "Inferred primary architectural role: Autonomous Orchestration workflow accelerator with multi-agent, workflow, orchestration patterns.",
+        "Estimated token efficiency and context hygiene rated high due to structured YAML trigger metadata.",
+        "Recommended for production agent pipelines where deterministic langgraph stategraph & multi-agent swarm execution is required."
+      ],
+      "capabilities": [
+        {
+          "statement": "Builds deterministic StateGraph topologies with typed TypedDict / Pydantic state channels",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/langgraph-orchestration/SKILL.md#section-1"
+        },
+        {
+          "statement": "Implements human-in-the-loop interrupt points for approval of critical agent tool calls",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/langgraph-orchestration/SKILL.md#section-2"
+        },
+        {
+          "statement": "Supports SQLite and Postgres Checkpointer engines for resilient workflow resumption",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/langgraph-orchestration/SKILL.md#section-3"
+        },
+        {
+          "statement": "Synthesizes multi-step context for autonomous task completion with minimal prompt drift.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "dependencies": [
+        "pydantic"
+      ],
+      "supportedAgents": [
+        "OpenClaw",
+        "Google Antigravity"
+      ],
+      "useCases": [
+        "Automated autonomous orchestration workflows in enterprise repositories",
+        "Construct cyclical multi-agent workflows with LangGraph StateGraph, human-in-the-loop vali with deterministic verification",
+        "CI/CD and interactive IDE agent skill augmentation",
+        "Multi-agent delegation with standardized SKILL.md guardrails"
+      ],
+      "strengths": [
+        {
+          "statement": "Verified YAML frontmatter & structured instructions (3 sections in skills/langgraph-orchestration/SKILL.md).",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/langgraph-orchestration/SKILL.md#L1"
+        },
+        {
+          "statement": "Strong ecosystem backing (5.190 stars in openclaw/skills).",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "https://github.com/openclaw/skills"
+        },
+        {
+          "statement": "Reduces multi-turn agent hallucination risk through explicit guardrails and step-by-step tool orchestration.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "weaknesses": [
+        {
+          "statement": "May require host agent tool-calling support (OpenClaw / Google Antigravity) for full automation depth.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "securityFindings": [],
+      "versions": [
+        {
+          "id": "ver-langgraph-multi-agent-workflow-2.1.4",
+          "version": "2.1.4",
+          "commitSha": "ecf3a6a",
+          "changelog": "Verified manifest skills/langgraph-orchestration/SKILL.md with score 90.5/100 (S Tier).",
+          "contentHash": "ecf3a6aa04ef5f50",
+          "releasedAt": "2026-11-14T03:32:09.986Z"
+        },
+        {
+          "id": "ver-langgraph-multi-agent-workflow-1.0.0",
+          "version": "1.0.0",
+          "commitSha": "a1b2c3d",
+          "changelog": "Initial skill discovery and baseline static security validation.",
+          "contentHash": "0011223344556677",
+          "releasedAt": "2026-10-31T03:32:09.986Z"
+        }
+      ],
+      "discoveredAt": "2026-11-15T03:32:10.001Z",
+      "lastUpdatedAt": "2026-11-14T03:32:09.986Z",
+      "lastAnalyzedAt": "2026-11-16T03:32:10.001Z",
+      "llmProviderUsed": "heuristic-verified-engine"
+    },
+    {
+      "id": "skill-browser-use-agentic-web",
+      "slug": "browser-use-agentic-web",
+      "name": "Browser-Use Intelligent Web Traversal",
+      "description": "Autonomous web agent skill for vision-guided DOM tree navigation, CAPTCHA avoidance compliance, interactive form filling, and data extraction.",
+      "technicalSummary": "Browser-Use Intelligent Web Traversal (browser-use/agent-skills) is a A-Tier AI agent skill scoring 86/100. Verified via skills/browser-use-crawler/SKILL.md with 2 reference patterns and SAFE security posture.",
+      "repositoryId": "repo-browser-use-agent-skills",
+      "repository": {
+        "id": "repo-browser-use-agent-skills",
+        "fullName": "browser-use/agent-skills",
+        "owner": "browser-use",
+        "name": "agent-skills",
+        "htmlUrl": "https://github.com/browser-use/agent-skills",
+        "description": "Agentic web automation and vision-based interactive navigation skills.",
+        "defaultBranch": "main",
+        "stars": 12450,
+        "forks": 1100,
+        "openIssues": 35,
+        "watchers": 420,
+        "language": "Python",
+        "license": "MIT",
+        "topics": [
+          "browser-use",
+          "playwright",
+          "web-automation",
+          "vision-agent",
+          "crawler"
+        ],
+        "lastPushedAt": "2026-11-15T03:32:09.986Z",
+        "sourceId": "src-skills-sh"
+      },
+      "categoryId": "cat-browser",
+      "category": {
+        "id": "cat-browser",
+        "name": "Browser Automation",
+        "slug": "browser-automation",
+        "description": "Playwright, Chrome DevTools, E2E web testing, and DOM extraction skills.",
+        "icon": "Globe",
+        "color": "#3b82f6"
+      },
+      "manifestPath": "skills/browser-use-crawler/SKILL.md",
+      "skillMdContent": "---\nname: browser-use-crawler\ndescription: Vision-grounded autonomous web browser agent using Playwright, CDP, and structured action trees.\n---\n\n# Browser-Use Intelligent Web Traversal\n\nAutonomous browser agent capable of complex, multi-page user journey execution.\n\n## Installation\n\n```bash\nnpx skills add browser-use/agent-skills --skill browser-use-crawler\n```\n\n## Core Capabilities\n\n- Indexes interactive DOM elements with numeric visual bounding boxes for accurate vision clicks\n- Handles multi-tab sessions, cookie consent dismissals, and dynamic infinite scrolling\n- Extracts structured JSON schemas directly from dynamic single-page applications\n\n```python\nfrom browser_use import Agent\nfrom langchain_openai import ChatOpenAI\nagent = Agent(task=\"Find top 5 AI agent GitHub repositories and summarize stars\", llm=ChatOpenAI(model=\"gpt-4o\"))\nawait agent.run()\n```\n",
+      "installCommand": "npx skills add browser-use/agent-skills",
+      "installMethod": "skills.sh CLI (npx skills)",
+      "installSourceDoc": "skills/browser-use-crawler/SKILL.md",
+      "installVerified": true,
+      "currentVersion": "1.4.0",
+      "overallScore": 86,
+      "rankingTier": "A",
+      "scoreBreakdown": {
+        "technicalCapability": 76,
+        "innovationAndComplexity": 74,
+        "communityAdoption": 97,
+        "maintenanceAndUpdates": 97,
+        "documentationQuality": 81,
+        "securityAndReliability": 100,
+        "overallScore": 86,
+        "rankingTier": "A"
+      },
+      "securityStatus": "SAFE",
+      "isDuplicate": false,
+      "canonicalSkillId": null,
+      "verifiedEvidence": [
+        "Repository browser-use/agent-skills verified with 12.450 GitHub stars and 1.100 forks.",
+        "Manifest skills/browser-use-crawler/SKILL.md contains 28 lines, 3 structured markdown sections, and 2 executable/reference code blocks.",
+        "Static security scan executed with 0 policy violations (status: SAFE).",
+        "Last repository push verified 1 day(s) ago."
+      ],
+      "aiInferredAnalysis": [
+        "Inferred primary architectural role: Browser Automation workflow accelerator with playwright, autonomous patterns.",
+        "Estimated token efficiency and context hygiene rated high due to structured YAML trigger metadata.",
+        "Recommended for production agent pipelines where deterministic browser-use intelligent web traversal execution is required."
+      ],
+      "capabilities": [
+        {
+          "statement": "Indexes interactive DOM elements with numeric visual bounding boxes for accurate vision clicks",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/browser-use-crawler/SKILL.md#section-1"
+        },
+        {
+          "statement": "Handles multi-tab sessions, cookie consent dismissals, and dynamic infinite scrolling",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/browser-use-crawler/SKILL.md#section-2"
+        },
+        {
+          "statement": "Extracts structured JSON schemas directly from dynamic single-page applications",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/browser-use-crawler/SKILL.md#section-3"
+        },
+        {
+          "statement": "Synthesizes multi-step context for autonomous task completion with minimal prompt drift.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "dependencies": [
+        "playwright",
+        "openai"
+      ],
+      "supportedAgents": [
+        "OpenAI Codex CLI",
+        "Google Antigravity"
+      ],
+      "useCases": [
+        "Automated browser automation workflows in enterprise repositories",
+        "Autonomous web agent skill for vision-guided DOM tree navigation, CAPTCHA avoidance compli with deterministic verification",
+        "CI/CD and interactive IDE agent skill augmentation",
+        "Multi-agent delegation with standardized SKILL.md guardrails"
+      ],
+      "strengths": [
+        {
+          "statement": "Verified YAML frontmatter & structured instructions (3 sections in skills/browser-use-crawler/SKILL.md).",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/browser-use-crawler/SKILL.md#L1"
+        },
+        {
+          "statement": "Strong ecosystem backing (12.450 stars in browser-use/agent-skills).",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "https://github.com/browser-use/agent-skills"
+        },
+        {
+          "statement": "Reduces multi-turn agent hallucination risk through explicit guardrails and step-by-step tool orchestration.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "weaknesses": [
+        {
+          "statement": "May require host agent tool-calling support (OpenAI Codex CLI / Google Antigravity) for full automation depth.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "securityFindings": [],
+      "versions": [
+        {
+          "id": "ver-browser-use-agentic-web-1.4.0",
+          "version": "1.4.0",
+          "commitSha": "1572fa8",
+          "changelog": "Verified manifest skills/browser-use-crawler/SKILL.md with score 86/100 (A Tier).",
+          "contentHash": "1572fa8ae968c92c",
+          "releasedAt": "2026-11-15T03:32:09.986Z"
+        },
+        {
+          "id": "ver-browser-use-agentic-web-1.0.0",
+          "version": "1.0.0",
+          "commitSha": "a1b2c3d",
+          "changelog": "Initial skill discovery and baseline static security validation.",
+          "contentHash": "0011223344556677",
+          "releasedAt": "2026-11-01T03:32:09.986Z"
+        }
+      ],
+      "discoveredAt": "2026-11-16T03:32:10.001Z",
+      "lastUpdatedAt": "2026-11-15T03:32:09.986Z",
+      "lastAnalyzedAt": "2026-11-16T03:32:10.001Z",
+      "llmProviderUsed": "heuristic-verified-engine"
+    },
+    {
+      "id": "skill-fastapi-pydantic-ai-backend",
+      "slug": "fastapi-pydantic-ai-backend",
+      "name": "FastAPI & Pydantic AI Structured Agents",
+      "description": "High-throughput async Python REST API design with Pydantic AI agent dependencies, streaming SSE responses, and OpenAPI validation.",
+      "technicalSummary": "FastAPI & Pydantic AI Structured Agents (full-stack-skills/backend-skills) is a A-Tier AI agent skill scoring 86.1/100. Verified via skills/fastapi-pydantic-ai/SKILL.md with 2 reference patterns and SAFE security posture.",
+      "repositoryId": "repo-full-stack-skills-backend-skills",
+      "repository": {
+        "id": "repo-full-stack-skills-backend-skills",
+        "fullName": "full-stack-skills/backend-skills",
+        "owner": "full-stack-skills",
+        "name": "backend-skills",
+        "htmlUrl": "https://github.com/full-stack-skills/backend-skills",
+        "description": "Production backend architecture patterns for FastAPI, NestJS, and Pydantic AI.",
+        "defaultBranch": "main",
+        "stars": 3890,
+        "forks": 340,
+        "openIssues": 8,
+        "watchers": 140,
+        "language": "Python",
+        "license": "MIT",
+        "topics": [
+          "fastapi",
+          "pydantic-ai",
+          "python",
+          "async",
+          "sse-streaming"
+        ],
+        "lastPushedAt": "2026-11-14T03:32:09.986Z",
+        "sourceId": "src-threejs-skills"
+      },
+      "categoryId": "cat-backend",
+      "category": {
+        "id": "cat-backend",
+        "name": "Backend Development",
+        "slug": "backend-development",
+        "description": "NestJS, PostgreSQL, Prisma ORM, Redis queues, and distributed API architecture.",
+        "icon": "Database",
+        "color": "#f59e0b"
+      },
+      "manifestPath": "skills/fastapi-pydantic-ai/SKILL.md",
+      "skillMdContent": "---\nname: fastapi-pydantic-ai\ndescription: Type-safe generative AI backend service development with FastAPI, Pydantic AI, and async streaming.\n---\n\n# FastAPI & Pydantic AI Structured Agents\n\nProduction-ready backend API service for typed generative AI agents and tool registries.\n\n## Installation\n\n```bash\nnpx skills add full-stack-skills/backend-skills --skill fastapi-pydantic-ai\n```\n\n## Core Capabilities\n\n- Declares strongly-typed agent tool dependencies using Pydantic AI RunContext\n- Implements Server-Sent Events (SSE) streaming endpoints with backpressure handling\n- Automatic OpenAPI documentation generation with schema validation and authentication\n\n```python\nfrom pydantic_ai import Agent, RunContext\nagent = Agent('openai:gpt-4o', system_prompt=\"Answer with structured JSON\")\n@app.get(\"/stream\")\nasync def stream_agent(prompt: str):\n    async with agent.run_stream(prompt) as response:\n        async for chunk in response.stream_text():\n            yield chunk\n```\n",
+      "installCommand": "npx skills add full-stack-skills/backend-skills",
+      "installMethod": "skills.sh CLI (npx skills)",
+      "installSourceDoc": "skills/fastapi-pydantic-ai/SKILL.md",
+      "installVerified": true,
+      "currentVersion": "1.6.0",
+      "overallScore": 86.1,
+      "rankingTier": "A",
+      "scoreBreakdown": {
+        "technicalCapability": 86,
+        "innovationAndComplexity": 69,
+        "communityAdoption": 88,
+        "maintenanceAndUpdates": 97,
+        "documentationQuality": 81,
+        "securityAndReliability": 100,
+        "overallScore": 86.1,
+        "rankingTier": "A"
+      },
+      "securityStatus": "SAFE",
+      "isDuplicate": false,
+      "canonicalSkillId": null,
+      "verifiedEvidence": [
+        "Repository full-stack-skills/backend-skills verified with 3.890 GitHub stars and 340 forks.",
+        "Manifest skills/fastapi-pydantic-ai/SKILL.md contains 31 lines, 3 structured markdown sections, and 2 executable/reference code blocks.",
+        "Static security scan executed with 0 policy violations (status: SAFE).",
+        "Last repository push verified 2 day(s) ago."
+      ],
+      "aiInferredAnalysis": [
+        "Inferred primary architectural role: Backend Architecture workflow accelerator with ast patterns.",
+        "Estimated token efficiency and context hygiene rated high due to structured YAML trigger metadata.",
+        "Recommended for production agent pipelines where deterministic fastapi & pydantic ai structured agents execution is required."
+      ],
+      "capabilities": [
+        {
+          "statement": "Declares strongly-typed agent tool dependencies using Pydantic AI RunContext",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/fastapi-pydantic-ai/SKILL.md#section-1"
+        },
+        {
+          "statement": "Implements Server-Sent Events (SSE) streaming endpoints with backpressure handling",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/fastapi-pydantic-ai/SKILL.md#section-2"
+        },
+        {
+          "statement": "Automatic OpenAPI documentation generation with schema validation and authentication",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/fastapi-pydantic-ai/SKILL.md#section-3"
+        },
+        {
+          "statement": "Synthesizes multi-step context for autonomous task completion with minimal prompt drift.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "dependencies": [
+        "fastapi",
+        "pydantic",
+        "openai"
+      ],
+      "supportedAgents": [
+        "OpenAI Codex CLI",
+        "Google Antigravity"
+      ],
+      "useCases": [
+        "Automated backend architecture workflows in enterprise repositories",
+        "High-throughput async Python REST API design with Pydantic AI agent dependencies, streamin with deterministic verification",
+        "CI/CD and interactive IDE agent skill augmentation",
+        "Multi-agent delegation with standardized SKILL.md guardrails"
+      ],
+      "strengths": [
+        {
+          "statement": "Verified YAML frontmatter & structured instructions (3 sections in skills/fastapi-pydantic-ai/SKILL.md).",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/fastapi-pydantic-ai/SKILL.md#L1"
+        },
+        {
+          "statement": "Strong ecosystem backing (3.890 stars in full-stack-skills/backend-skills).",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "https://github.com/full-stack-skills/backend-skills"
+        },
+        {
+          "statement": "Reduces multi-turn agent hallucination risk through explicit guardrails and step-by-step tool orchestration.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "weaknesses": [
+        {
+          "statement": "May require host agent tool-calling support (OpenAI Codex CLI / Google Antigravity) for full automation depth.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "securityFindings": [],
+      "versions": [
+        {
+          "id": "ver-fastapi-pydantic-ai-backend-1.6.0",
+          "version": "1.6.0",
+          "commitSha": "a923281",
+          "changelog": "Verified manifest skills/fastapi-pydantic-ai/SKILL.md with score 86.1/100 (A Tier).",
+          "contentHash": "a9232810ca2ad650",
+          "releasedAt": "2026-11-14T03:32:09.986Z"
+        },
+        {
+          "id": "ver-fastapi-pydantic-ai-backend-1.0.0",
+          "version": "1.0.0",
+          "commitSha": "a1b2c3d",
+          "changelog": "Initial skill discovery and baseline static security validation.",
+          "contentHash": "0011223344556677",
+          "releasedAt": "2026-10-31T03:32:09.986Z"
+        }
+      ],
+      "discoveredAt": "2026-11-15T03:32:10.002Z",
+      "lastUpdatedAt": "2026-11-14T03:32:09.986Z",
+      "lastAnalyzedAt": "2026-11-16T03:32:10.002Z",
+      "llmProviderUsed": "heuristic-verified-engine"
+    },
+    {
+      "id": "skill-k8s-helm-gitops-operator",
+      "slug": "k8s-helm-gitops-operator",
+      "name": "Kubernetes Helm & GitOps Cluster Operator",
+      "description": "Declarative Kubernetes cluster deployment with Helm charts, ArgoCD GitOps pipelines, sealed secrets, and resource quota hardening.",
+      "technicalSummary": "Kubernetes Helm & GitOps Cluster Operator (sickn33/antigravity-awesome-skills) is a A-Tier AI agent skill scoring 85/100. Verified via skills/k8s-helm-gitops/SKILL.md with 2 reference patterns and SAFE security posture.",
+      "repositoryId": "repo-sickn33-antigravity-awesome-skills",
+      "repository": {
+        "id": "repo-sickn33-antigravity-awesome-skills",
+        "fullName": "sickn33/antigravity-awesome-skills",
+        "owner": "sickn33",
+        "name": "antigravity-awesome-skills",
+        "htmlUrl": "https://github.com/sickn33/antigravity-awesome-skills",
+        "description": "Curated collection of production skills for Google Antigravity, Claude Code, and Cursor.",
+        "defaultBranch": "main",
+        "stars": 7120,
+        "forks": 820,
+        "openIssues": 12,
+        "watchers": 310,
+        "language": "Shell",
+        "license": "Apache-2.0",
+        "topics": [
+          "kubernetes",
+          "helm",
+          "argocd",
+          "gitops",
+          "devops",
+          "sre"
+        ],
+        "lastPushedAt": "2026-11-13T03:32:09.986Z",
+        "sourceId": "src-antigravity-awesome"
+      },
+      "categoryId": "cat-devops",
+      "category": {
+        "id": "cat-devops",
+        "name": "DevOps & Cloud",
+        "slug": "devops",
+        "description": "Docker, Kubernetes, Terraform, CI/CD pipelines, and observability automation.",
+        "icon": "Server",
+        "color": "#10b981"
+      },
+      "manifestPath": "skills/k8s-helm-gitops/SKILL.md",
+      "skillMdContent": "---\nname: k8s-helm-gitops\ndescription: Helm chart templating, ArgoCD continuous deployment manifests, and Kubernetes workload security.\n---\n\n# Kubernetes Helm & GitOps Cluster Operator\n\nDeploy and operate resilient microservices across cloud Kubernetes environments.\n\n## Installation\n\n```bash\nnpx skills add sickn33/antigravity-awesome-skills --skill k8s-helm-gitops\n```\n\n## Core Capabilities\n\n- Modular Helm chart templating with strict schema validation and default value overrides\n- Implements ArgoCD application manifests with automated sync and drift detection\n- Configures PodSecurityStandards (restricted), network policies, and horizontal pod autoscaling\n\n```yaml\napiVersion: argoproj.io/v1alpha1\nkind: Application\nmetadata:\n  name: agent-skill-radar\nspec:\n  project: default\n  source:\n    repoURL: 'https://github.com/sickn33/antigravity-awesome-skills'\n    path: charts/skill-radar\n  destination:\n    server: 'https://kubernetes.default.svc'\n```\n",
+      "installCommand": "npx skills add sickn33/antigravity-awesome-skills",
+      "installMethod": "skills.sh CLI (npx skills)",
+      "installSourceDoc": "skills/k8s-helm-gitops/SKILL.md",
+      "installVerified": true,
+      "currentVersion": "2.4.0",
+      "overallScore": 85,
+      "rankingTier": "A",
+      "scoreBreakdown": {
+        "technicalCapability": 76,
+        "innovationAndComplexity": 69,
+        "communityAdoption": 97,
+        "maintenanceAndUpdates": 97,
+        "documentationQuality": 81,
+        "securityAndReliability": 100,
+        "overallScore": 85,
+        "rankingTier": "A"
+      },
+      "securityStatus": "SAFE",
+      "isDuplicate": false,
+      "canonicalSkillId": null,
+      "verifiedEvidence": [
+        "Repository sickn33/antigravity-awesome-skills verified with 7.120 GitHub stars and 820 forks.",
+        "Manifest skills/k8s-helm-gitops/SKILL.md contains 35 lines, 3 structured markdown sections, and 2 executable/reference code blocks.",
+        "Static security scan executed with 0 policy violations (status: SAFE).",
+        "Last repository push verified 3 day(s) ago."
+      ],
+      "aiInferredAnalysis": [
+        "Inferred primary architectural role: Security Analysis workflow accelerator with security patterns.",
+        "Estimated token efficiency and context hygiene rated high due to structured YAML trigger metadata.",
+        "Recommended for production agent pipelines where deterministic kubernetes helm & gitops cluster operator execution is required."
+      ],
+      "capabilities": [
+        {
+          "statement": "Modular Helm chart templating with strict schema validation and default value overrides",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/k8s-helm-gitops/SKILL.md#section-1"
+        },
+        {
+          "statement": "Implements ArgoCD application manifests with automated sync and drift detection",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/k8s-helm-gitops/SKILL.md#section-2"
+        },
+        {
+          "statement": "Configures PodSecurityStandards (restricted), network policies, and horizontal pod autoscaling",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/k8s-helm-gitops/SKILL.md#section-3"
+        },
+        {
+          "statement": "Synthesizes multi-step context for autonomous task completion with minimal prompt drift.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "dependencies": [
+        "node >= 20",
+        "markdown-frontmatter"
+      ],
+      "supportedAgents": [
+        "Google Antigravity"
+      ],
+      "useCases": [
+        "Automated security analysis workflows in enterprise repositories",
+        "Declarative Kubernetes cluster deployment with Helm charts, ArgoCD GitOps pipelines, seale with deterministic verification",
+        "CI/CD and interactive IDE agent skill augmentation",
+        "Multi-agent delegation with standardized SKILL.md guardrails"
+      ],
+      "strengths": [
+        {
+          "statement": "Verified YAML frontmatter & structured instructions (3 sections in skills/k8s-helm-gitops/SKILL.md).",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/k8s-helm-gitops/SKILL.md#L1"
+        },
+        {
+          "statement": "Strong ecosystem backing (7.120 stars in sickn33/antigravity-awesome-skills).",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "https://github.com/sickn33/antigravity-awesome-skills"
+        },
+        {
+          "statement": "Reduces multi-turn agent hallucination risk through explicit guardrails and step-by-step tool orchestration.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "weaknesses": [
+        {
+          "statement": "May require host agent tool-calling support (Google Antigravity) for full automation depth.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "securityFindings": [],
+      "versions": [
+        {
+          "id": "ver-k8s-helm-gitops-operator-2.4.0",
+          "version": "2.4.0",
+          "commitSha": "a0ec833",
+          "changelog": "Verified manifest skills/k8s-helm-gitops/SKILL.md with score 85/100 (A Tier).",
+          "contentHash": "a0ec8335dea98159",
+          "releasedAt": "2026-11-13T03:32:09.986Z"
+        },
+        {
+          "id": "ver-k8s-helm-gitops-operator-1.0.0",
+          "version": "1.0.0",
+          "commitSha": "a1b2c3d",
+          "changelog": "Initial skill discovery and baseline static security validation.",
+          "contentHash": "0011223344556677",
+          "releasedAt": "2026-10-30T03:32:09.986Z"
+        }
+      ],
+      "discoveredAt": "2026-11-14T03:32:10.002Z",
+      "lastUpdatedAt": "2026-11-13T03:32:09.986Z",
+      "lastAnalyzedAt": "2026-11-16T03:32:10.002Z",
+      "llmProviderUsed": "heuristic-verified-engine"
+    },
+    {
+      "id": "skill-threejs-rapier-physics-3d",
+      "slug": "threejs-rapier-physics-3d",
+      "name": "Three.js & Rapier 3D Physics Engine",
+      "description": "Rigid-body mechanics, collider meshes, character controllers, and raycasting integration using Rapier.js and Three.js / React Three Fiber.",
+      "technicalSummary": "Three.js & Rapier 3D Physics Engine (full-stack-skills/threejs-skills) is a A-Tier AI agent skill scoring 84.8/100. Verified via skills/threejs-rapier-physics/SKILL.md with 2 reference patterns and SAFE security posture.",
+      "repositoryId": "repo-full-stack-skills-threejs-skills",
+      "repository": {
+        "id": "repo-full-stack-skills-threejs-skills",
+        "fullName": "full-stack-skills/threejs-skills",
+        "owner": "full-stack-skills",
+        "name": "threejs-skills",
+        "htmlUrl": "https://github.com/full-stack-skills/threejs-skills",
+        "description": "Advanced 3D web graphics, Three.js, React Three Fiber, and WebGL shader skills for coding agents.",
+        "defaultBranch": "main",
+        "stars": 4320,
+        "forks": 410,
+        "openIssues": 11,
+        "watchers": 185,
+        "language": "TypeScript",
+        "license": "MIT",
+        "topics": [
+          "threejs",
+          "rapier",
+          "physics",
+          "react-three-fiber",
+          "3d"
+        ],
+        "lastPushedAt": "2026-11-14T03:32:09.986Z",
+        "sourceId": "src-threejs-skills"
+      },
+      "categoryId": "cat-3d",
+      "category": {
+        "id": "cat-3d",
+        "name": "3D Development",
+        "slug": "3d-development",
+        "description": "Three.js, React Three Fiber, WebGL GLSL shaders, physics, and 3D scene optimization.",
+        "icon": "Box",
+        "color": "#ec4899"
+      },
+      "manifestPath": "skills/threejs-rapier-physics/SKILL.md",
+      "skillMdContent": "---\nname: threejs-rapier-physics\ndescription: Real-time 3D physics simulation with WebAssembly Rapier.js, collision listeners, and smooth interpolation.\n---\n\n# Three.js & Rapier 3D Physics Engine\n\nIntegrate zero-latency WebAssembly physics into WebGL Three.js applications.\n\n## Installation\n\n```bash\nnpx skills add full-stack-skills/threejs-skills --skill threejs-rapier-physics\n```\n\n## Core Capabilities\n\n- Connects WASM-compiled Rapier physics world with Three.js rendering scene loop\n- Configures dynamic, fixed, and kinematic rigid bodies with compound colliders\n- Implements responsive third-person character controller with slope navigation and jumping\n\n```typescript\nimport RAPIER from '@dimforge/rapier3d-compat';\nawait RAPIER.init();\nconst world = new RAPIER.World({ x: 0.0, y: -9.81, z: 0.0 });\nconst rigidBody = world.createRigidBody(RAPIER.RigidBodyDesc.dynamic().setTranslation(0, 10, 0));\n```\n",
+      "installCommand": "npx skills add full-stack-skills/threejs-skills",
+      "installMethod": "skills.sh CLI (npx skills)",
+      "installSourceDoc": "skills/threejs-rapier-physics/SKILL.md",
+      "installVerified": true,
+      "currentVersion": "1.5.0",
+      "overallScore": 84.8,
+      "rankingTier": "A",
+      "scoreBreakdown": {
+        "technicalCapability": 76,
+        "innovationAndComplexity": 74,
+        "communityAdoption": 89,
+        "maintenanceAndUpdates": 97,
+        "documentationQuality": 81,
+        "securityAndReliability": 100,
+        "overallScore": 84.8,
+        "rankingTier": "A"
+      },
+      "securityStatus": "SAFE",
+      "isDuplicate": false,
+      "canonicalSkillId": null,
+      "verifiedEvidence": [
+        "Repository full-stack-skills/threejs-skills verified with 4.320 GitHub stars and 410 forks.",
+        "Manifest skills/threejs-rapier-physics/SKILL.md contains 28 lines, 3 structured markdown sections, and 2 executable/reference code blocks.",
+        "Static security scan executed with 0 policy violations (status: SAFE).",
+        "Last repository push verified 2 day(s) ago."
+      ],
+      "aiInferredAnalysis": [
+        "Inferred primary architectural role: 3D & WebGL Engineering workflow accelerator with three.js, webgl patterns.",
+        "Estimated token efficiency and context hygiene rated high due to structured YAML trigger metadata.",
+        "Recommended for production agent pipelines where deterministic three.js & rapier 3d physics engine execution is required."
+      ],
+      "capabilities": [
+        {
+          "statement": "Connects WASM-compiled Rapier physics world with Three.js rendering scene loop",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/threejs-rapier-physics/SKILL.md#section-1"
+        },
+        {
+          "statement": "Configures dynamic, fixed, and kinematic rigid bodies with compound colliders",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/threejs-rapier-physics/SKILL.md#section-2"
+        },
+        {
+          "statement": "Implements responsive third-person character controller with slope navigation and jumping",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/threejs-rapier-physics/SKILL.md#section-3"
+        },
+        {
+          "statement": "Synthesizes multi-step context for autonomous task completion with minimal prompt drift.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "dependencies": [
+        "three",
+        "typescript"
+      ],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "Cursor Agent"
+      ],
+      "useCases": [
+        "Automated 3d & webgl engineering workflows in enterprise repositories",
+        "Rigid-body mechanics, collider meshes, character controllers, and raycasting integration u with deterministic verification",
+        "CI/CD and interactive IDE agent skill augmentation",
+        "Multi-agent delegation with standardized SKILL.md guardrails"
+      ],
+      "strengths": [
+        {
+          "statement": "Verified YAML frontmatter & structured instructions (3 sections in skills/threejs-rapier-physics/SKILL.md).",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/threejs-rapier-physics/SKILL.md#L1"
+        },
+        {
+          "statement": "Strong ecosystem backing (4.320 stars in full-stack-skills/threejs-skills).",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "https://github.com/full-stack-skills/threejs-skills"
+        },
+        {
+          "statement": "Reduces multi-turn agent hallucination risk through explicit guardrails and step-by-step tool orchestration.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "weaknesses": [
+        {
+          "statement": "May require host agent tool-calling support (Google Antigravity / Claude Code) for full automation depth.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "securityFindings": [],
+      "versions": [
+        {
+          "id": "ver-threejs-rapier-physics-3d-1.5.0",
+          "version": "1.5.0",
+          "commitSha": "dbc18bf",
+          "changelog": "Verified manifest skills/threejs-rapier-physics/SKILL.md with score 84.8/100 (A Tier).",
+          "contentHash": "dbc18bf1e9bee4b6",
+          "releasedAt": "2026-11-14T03:32:09.986Z"
+        },
+        {
+          "id": "ver-threejs-rapier-physics-3d-1.0.0",
+          "version": "1.0.0",
+          "commitSha": "a1b2c3d",
+          "changelog": "Initial skill discovery and baseline static security validation.",
+          "contentHash": "0011223344556677",
+          "releasedAt": "2026-10-31T03:32:09.986Z"
+        }
+      ],
+      "discoveredAt": "2026-11-15T03:32:10.002Z",
+      "lastUpdatedAt": "2026-11-14T03:32:09.986Z",
+      "lastAnalyzedAt": "2026-11-16T03:32:10.002Z",
+      "llmProviderUsed": "heuristic-verified-engine"
+    },
+    {
+      "id": "skill-secret-sentinel-vault-auditor",
+      "slug": "secret-sentinel-vault-auditor",
+      "name": "Secret Sentinel TruffleHog & Vault Auditor",
+      "description": "Enterprise secret discovery engine detecting high-entropy tokens, AWS keys, private SSH certificates, and OAuth secrets in agent workspaces.",
+      "technicalSummary": "Secret Sentinel TruffleHog & Vault Auditor (sickn33/antigravity-awesome-skills) is a A-Tier AI agent skill scoring 86/100. Verified via skills/secret-scanner-vault/SKILL.md with 2 reference patterns and SAFE security posture.",
+      "repositoryId": "repo-sickn33-antigravity-awesome-skills",
+      "repository": {
+        "id": "repo-sickn33-antigravity-awesome-skills",
+        "fullName": "sickn33/antigravity-awesome-skills",
+        "owner": "sickn33",
+        "name": "antigravity-awesome-skills",
+        "htmlUrl": "https://github.com/sickn33/antigravity-awesome-skills",
+        "description": "Curated collection of production skills for Google Antigravity, Claude Code, and Cursor.",
+        "defaultBranch": "main",
+        "stars": 7120,
+        "forks": 820,
+        "openIssues": 12,
+        "watchers": 310,
+        "language": "TypeScript",
+        "license": "Apache-2.0",
+        "topics": [
+          "secret-scanning",
+          "security",
+          "trufflehog",
+          "vault",
+          "sast"
+        ],
+        "lastPushedAt": "2026-11-15T03:32:09.986Z",
+        "sourceId": "src-antigravity-awesome"
+      },
+      "categoryId": "cat-security",
+      "category": {
+        "id": "cat-security",
+        "name": "Security Analysis",
+        "slug": "security-analysis",
+        "description": "Static code auditing, secret detection, prompt injection defense, and SAST workflows.",
+        "icon": "ShieldAlert",
+        "color": "#ef4444"
+      },
+      "manifestPath": "skills/secret-scanner-vault/SKILL.md",
+      "skillMdContent": "---\nname: secret-scanner-vault\ndescription: Pre-commit and static SAST auditing for leaked API keys, tokens, and unauthorized credential exposure.\n---\n\n# Secret Sentinel TruffleHog & Vault Auditor\n\nPrevent accidental credential leakage in agent manifests, commits, and memory contexts.\n\n## Installation\n\n```bash\nnpx skills add sickn33/antigravity-awesome-skills --skill secret-scanner-vault\n```\n\n## Core Capabilities\n\n- Detects 800+ secret token patterns (GitHub, AWS, Stripe, Slack, OpenAI, Anthropic, GCP)\n- Evaluates Shannon entropy to identify unknown random secrets and cryptographic keys\n- Integrates with HashiCorp Vault and environment key vaults for safe secret injection\n\n```typescript\nexport function auditCodebaseSecrets(fileContent: string): SecretFinding[] {\n  // Scans for high-entropy tokens and validates active API key signatures\n}\n```\n",
+      "installCommand": "npx skills add sickn33/antigravity-awesome-skills",
+      "installMethod": "skills.sh CLI (npx skills)",
+      "installSourceDoc": "skills/secret-scanner-vault/SKILL.md",
+      "installVerified": true,
+      "currentVersion": "2.1.0",
+      "overallScore": 86,
+      "rankingTier": "A",
+      "scoreBreakdown": {
+        "technicalCapability": 76,
+        "innovationAndComplexity": 74,
+        "communityAdoption": 97,
+        "maintenanceAndUpdates": 97,
+        "documentationQuality": 81,
+        "securityAndReliability": 100,
+        "overallScore": 86,
+        "rankingTier": "A"
+      },
+      "securityStatus": "SAFE",
+      "isDuplicate": false,
+      "canonicalSkillId": null,
+      "verifiedEvidence": [
+        "Repository sickn33/antigravity-awesome-skills verified with 7.120 GitHub stars and 820 forks.",
+        "Manifest skills/secret-scanner-vault/SKILL.md contains 27 lines, 3 structured markdown sections, and 2 executable/reference code blocks.",
+        "Static security scan executed with 0 policy violations (status: SAFE).",
+        "Last repository push verified 1 day(s) ago."
+      ],
+      "aiInferredAnalysis": [
+        "Inferred primary architectural role: Security Analysis workflow accelerator with ast, security patterns.",
+        "Estimated token efficiency and context hygiene rated high due to structured YAML trigger metadata.",
+        "Recommended for production agent pipelines where deterministic secret sentinel trufflehog & vault auditor execution is required."
+      ],
+      "capabilities": [
+        {
+          "statement": "Detects 800+ secret token patterns (GitHub, AWS, Stripe, Slack, OpenAI, Anthropic, GCP)",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/secret-scanner-vault/SKILL.md#section-1"
+        },
+        {
+          "statement": "Evaluates Shannon entropy to identify unknown random secrets and cryptographic keys",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/secret-scanner-vault/SKILL.md#section-2"
+        },
+        {
+          "statement": "Integrates with HashiCorp Vault and environment key vaults for safe secret injection",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/secret-scanner-vault/SKILL.md#section-3"
+        },
+        {
+          "statement": "Synthesizes multi-step context for autonomous task completion with minimal prompt drift.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "dependencies": [
+        "typescript",
+        "openai"
+      ],
+      "supportedAgents": [
+        "Google Antigravity",
+        "Claude Code",
+        "OpenAI Codex CLI"
+      ],
+      "useCases": [
+        "Automated security analysis workflows in enterprise repositories",
+        "Enterprise secret discovery engine detecting high-entropy tokens, AWS keys, private SSH ce with deterministic verification",
+        "CI/CD and interactive IDE agent skill augmentation",
+        "Multi-agent delegation with standardized SKILL.md guardrails"
+      ],
+      "strengths": [
+        {
+          "statement": "Verified YAML frontmatter & structured instructions (3 sections in skills/secret-scanner-vault/SKILL.md).",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/secret-scanner-vault/SKILL.md#L1"
+        },
+        {
+          "statement": "Strong ecosystem backing (7.120 stars in sickn33/antigravity-awesome-skills).",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "https://github.com/sickn33/antigravity-awesome-skills"
+        },
+        {
+          "statement": "Reduces multi-turn agent hallucination risk through explicit guardrails and step-by-step tool orchestration.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "weaknesses": [
+        {
+          "statement": "May require host agent tool-calling support (Google Antigravity / Claude Code) for full automation depth.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "securityFindings": [],
+      "versions": [
+        {
+          "id": "ver-secret-sentinel-vault-auditor-2.1.0",
+          "version": "2.1.0",
+          "commitSha": "c66b5ca",
+          "changelog": "Verified manifest skills/secret-scanner-vault/SKILL.md with score 86/100 (A Tier).",
+          "contentHash": "c66b5ca3386697f0",
+          "releasedAt": "2026-11-15T03:32:09.986Z"
+        },
+        {
+          "id": "ver-secret-sentinel-vault-auditor-1.0.0",
+          "version": "1.0.0",
+          "commitSha": "a1b2c3d",
+          "changelog": "Initial skill discovery and baseline static security validation.",
+          "contentHash": "0011223344556677",
+          "releasedAt": "2026-11-01T03:32:09.986Z"
+        }
+      ],
+      "discoveredAt": "2026-11-16T03:32:10.002Z",
+      "lastUpdatedAt": "2026-11-15T03:32:09.986Z",
+      "lastAnalyzedAt": "2026-11-16T03:32:10.002Z",
+      "llmProviderUsed": "heuristic-verified-engine"
+    },
+    {
+      "id": "skill-hybrid-vector-rag-chromadb",
+      "slug": "hybrid-vector-rag-chromadb",
+      "name": "Hybrid Vector RAG & BM25 ChromaDB Retriever",
+      "description": "Dense vector embedding and sparse BM25 keyword hybrid search with cross-encoder re-ranking for enterprise agent knowledge retrieval.",
+      "technicalSummary": "Hybrid Vector RAG & BM25 ChromaDB Retriever (openclaw/skills) is a A-Tier AI agent skill scoring 87/100. Verified via skills/hybrid-rag-retriever/SKILL.md with 2 reference patterns and SAFE security posture.",
+      "repositoryId": "repo-openclaw-skills",
+      "repository": {
+        "id": "repo-openclaw-skills",
+        "fullName": "openclaw/skills",
+        "owner": "openclaw",
+        "name": "skills",
+        "htmlUrl": "https://github.com/openclaw/skills",
+        "description": "OpenClaw community skill registry for autonomous research, browser, and workflow agents.",
+        "defaultBranch": "main",
+        "stars": 5190,
+        "forks": 615,
+        "openIssues": 24,
+        "watchers": 230,
+        "language": "Python",
+        "license": "MIT",
+        "topics": [
+          "rag",
+          "chromadb",
+          "bm25",
+          "vector-search",
+          "hybrid-retrieval"
+        ],
+        "lastPushedAt": "2026-11-13T03:32:09.986Z",
+        "sourceId": "src-openclaw"
+      },
+      "categoryId": "cat-research",
+      "category": {
+        "id": "cat-research",
+        "name": "Research Agents",
+        "slug": "research-agents",
+        "description": "Literature synthesis, citation verification, technical discovery, and deep search.",
+        "icon": "BookOpen",
+        "color": "#06b6d4"
+      },
+      "manifestPath": "skills/hybrid-rag-retriever/SKILL.md",
+      "skillMdContent": "---\nname: hybrid-rag-retriever\ndescription: Advanced RAG retrieval combining dense embeddings with sparse BM25 scores and reciprocal rank fusion.\n---\n\n# Hybrid Vector RAG & BM25 ChromaDB Retriever\n\nElevate LLM context accuracy with zero-hallucination hybrid retrieval pipelines.\n\n## Installation\n\n```bash\nopenclaw skills install hybrid-rag-retriever\n```\n\n## Core Capabilities\n\n- Computes Reciprocal Rank Fusion (RRF) between dense semantic embeddings and BM25 lexemes\n- Implements semantic chunking with dynamic overlap based on markdown header trees\n- Re-ranks candidate documents using cross-encoder models for maximum retrieval precision\n\n```python\nimport chromadb\nclient = chromadb.PersistentClient(path=\"./chroma_db\")\ncollection = client.get_or_create_collection(name=\"agent_skills\")\nresults = collection.query(query_texts=[\"Playwright DOM automation\"], n_results=5)\n```\n",
+      "installCommand": "openclaw skills install hybrid-rag-retriever",
+      "installMethod": "OpenClaw Skill Registry CLI",
+      "installSourceDoc": "skills/hybrid-rag-retriever/SKILL.md",
+      "installVerified": true,
+      "currentVersion": "2.3.0",
+      "overallScore": 87,
+      "rankingTier": "A",
+      "scoreBreakdown": {
+        "technicalCapability": 76,
+        "innovationAndComplexity": 79,
+        "communityAdoption": 97,
+        "maintenanceAndUpdates": 97,
+        "documentationQuality": 81,
+        "securityAndReliability": 100,
+        "overallScore": 87,
+        "rankingTier": "A"
+      },
+      "securityStatus": "SAFE",
+      "isDuplicate": false,
+      "canonicalSkillId": null,
+      "verifiedEvidence": [
+        "Repository openclaw/skills verified with 5.190 GitHub stars and 615 forks.",
+        "Manifest skills/hybrid-rag-retriever/SKILL.md contains 28 lines, 3 structured markdown sections, and 2 executable/reference code blocks.",
+        "Static security scan executed with 0 policy violations (status: SAFE).",
+        "Last repository push verified 3 day(s) ago."
+      ],
+      "aiInferredAnalysis": [
+        "Inferred primary architectural role: Browser Automation workflow accelerator with playwright, vector, rag patterns.",
+        "Estimated token efficiency and context hygiene rated high due to structured YAML trigger metadata.",
+        "Recommended for production agent pipelines where deterministic hybrid vector rag & bm25 chromadb retriever execution is required."
+      ],
+      "capabilities": [
+        {
+          "statement": "Computes Reciprocal Rank Fusion (RRF) between dense semantic embeddings and BM25 lexemes",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/hybrid-rag-retriever/SKILL.md#section-1"
+        },
+        {
+          "statement": "Implements semantic chunking with dynamic overlap based on markdown header trees",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/hybrid-rag-retriever/SKILL.md#section-2"
+        },
+        {
+          "statement": "Re-ranks candidate documents using cross-encoder models for maximum retrieval precision",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/hybrid-rag-retriever/SKILL.md#section-3"
+        },
+        {
+          "statement": "Synthesizes multi-step context for autonomous task completion with minimal prompt drift.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "dependencies": [
+        "playwright"
+      ],
+      "supportedAgents": [
+        "OpenClaw",
+        "Google Antigravity"
+      ],
+      "useCases": [
+        "Automated browser automation workflows in enterprise repositories",
+        "Dense vector embedding and sparse BM25 keyword hybrid search with cross-encoder re-ranking with deterministic verification",
+        "CI/CD and interactive IDE agent skill augmentation",
+        "Multi-agent delegation with standardized SKILL.md guardrails"
+      ],
+      "strengths": [
+        {
+          "statement": "Verified YAML frontmatter & structured instructions (3 sections in skills/hybrid-rag-retriever/SKILL.md).",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "skills/hybrid-rag-retriever/SKILL.md#L1"
+        },
+        {
+          "statement": "Strong ecosystem backing (5.190 stars in openclaw/skills).",
+          "evidenceType": "VERIFIED_EVIDENCE",
+          "sourceRef": "https://github.com/openclaw/skills"
+        },
+        {
+          "statement": "Reduces multi-turn agent hallucination risk through explicit guardrails and step-by-step tool orchestration.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "weaknesses": [
+        {
+          "statement": "May require host agent tool-calling support (OpenClaw / Google Antigravity) for full automation depth.",
+          "evidenceType": "AI_INFERENCE"
+        }
+      ],
+      "securityFindings": [],
+      "versions": [
+        {
+          "id": "ver-hybrid-vector-rag-chromadb-2.3.0",
+          "version": "2.3.0",
+          "commitSha": "a644762",
+          "changelog": "Verified manifest skills/hybrid-rag-retriever/SKILL.md with score 87/100 (A Tier).",
+          "contentHash": "a644762daf9e9ec2",
+          "releasedAt": "2026-11-13T03:32:09.986Z"
+        },
+        {
+          "id": "ver-hybrid-vector-rag-chromadb-1.0.0",
+          "version": "1.0.0",
+          "commitSha": "a1b2c3d",
+          "changelog": "Initial skill discovery and baseline static security validation.",
+          "contentHash": "0011223344556677",
+          "releasedAt": "2026-10-30T03:32:09.986Z"
+        }
+      ],
+      "discoveredAt": "2026-11-14T03:32:10.002Z",
+      "lastUpdatedAt": "2026-11-13T03:32:09.986Z",
+      "lastAnalyzedAt": "2026-11-16T03:32:10.002Z",
       "llmProviderUsed": "heuristic-verified-engine"
     }
   ],
@@ -1786,14 +3177,14 @@
       "skillId": "skill-anthropics-mcp-builder",
       "folder": "Core Production Stack",
       "notes": "Primary MCP server builder skill for backend agent tools.",
-      "savedAt": "2026-11-15T04:45:13.908Z"
+      "savedAt": "2026-11-15T15:32:10.002Z"
     },
     {
       "id": "saved-2",
       "skillId": "skill-antigravity-swarm-orchestrator",
       "folder": "Core Production Stack",
       "notes": "Antigravity multi-agent swarm orchestration standard.",
-      "savedAt": "2026-11-15T10:45:13.908Z"
+      "savedAt": "2026-11-15T21:32:10.002Z"
     }
   ],
   "scans": [
@@ -1819,8 +3210,8 @@
         "[02:00:11] Scanned OpenClaw ecosystem — flagged 1 unverified skill with CRITICAL security findings",
         "[02:00:13] Updated Skill Intelligence Scores and generated Daily Discovery Report."
       ],
-      "startedAt": "2026-11-15T12:45:13.908Z",
-      "completedAt": "2026-11-15T12:45:26.308Z",
+      "startedAt": "2026-11-15T23:32:10.002Z",
+      "completedAt": "2026-11-15T23:32:22.402Z",
       "durationMs": 12400,
       "scanJobs": [
         {
@@ -1896,47 +3287,47 @@
         "[02:00:01] Executed scheduled daily scan across GitHub & skills.sh sources.",
         "[02:00:09] Completed intelligence scoring and ranking calibration."
       ],
-      "startedAt": "2026-11-14T12:45:13.908Z",
-      "completedAt": "2026-11-14T12:45:23.708Z",
+      "startedAt": "2026-11-14T23:32:10.002Z",
+      "completedAt": "2026-11-14T23:32:19.802Z",
       "durationMs": 9800,
       "scanJobs": []
     }
   ],
   "dailyReports": [
     {
-      "id": "report-2026-11-15",
-      "reportDate": "2026-11-15T16:45:13.908Z",
-      "totalSkillsTracked": 10,
-      "newSkillsDiscovered": 8,
-      "updatedSkills": 6,
+      "id": "report-2026-11-16",
+      "reportDate": "2026-11-16T03:32:10.003Z",
+      "totalSkillsTracked": 19,
+      "newSkillsDiscovered": 15,
+      "updatedSkills": 13,
       "securityAlertsCount": 1,
-      "averageScore": 86,
+      "averageScore": 86.1,
       "topSkillIds": [
         "skill-security-sentinel-static-auditor",
         "skill-anthropics-mcp-builder",
+        "skill-langgraph-multi-agent-workflow",
         "skill-antigravity-swarm-orchestrator",
-        "skill-anthropics-webapp-testing",
-        "skill-threejs-webgl-shader-studio"
+        "skill-anthropics-webapp-testing"
       ],
       "trendingSkillIds": [
         "skill-anthropics-mcp-builder",
         "skill-anthropics-webapp-testing",
+        "skill-claude-code-ast-refactor",
         "skill-vercel-nextjs-app-router-best-practices",
-        "skill-security-sentinel-static-auditor",
-        "skill-antigravity-swarm-orchestrator"
+        "skill-browser-use-agentic-web"
       ],
       "categoryBreakdown": {
-        "Coding Agents": 2,
-        "Browser Automation": 1,
-        "Autonomous Agents": 1,
-        "3D Development": 1,
-        "Backend Development": 1,
-        "Research Agents": 1,
-        "DevOps & Cloud": 2,
-        "Security Analysis": 1
+        "Coding Agents": 4,
+        "Browser Automation": 2,
+        "Autonomous Agents": 2,
+        "3D Development": 2,
+        "Backend Development": 2,
+        "Research Agents": 2,
+        "DevOps & Cloud": 3,
+        "Security Analysis": 2
       },
-      "executiveSummary": "Agent Skill Radar tracked 10 skills across 6 repositories today. 8 newly discovered skills and 6 recently updated manifests were analyzed with a platform average Intelligence Score of 86/100. Static security inspection flagged 1 skill(s) requiring quarantine/review.",
-      "generatedAt": "2026-11-15T16:45:13.908Z"
+      "executiveSummary": "Agent Skill Radar tracked 19 skills across 8 repositories today. 15 newly discovered skills and 13 recently updated manifests were analyzed with a platform average Intelligence Score of 86.1/100. Static security inspection flagged 1 skill(s) requiring quarantine/review.",
+      "generatedAt": "2026-11-16T03:32:10.003Z"
     }
   ],
   "settings": {
